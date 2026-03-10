@@ -1,0 +1,72 @@
+annotated-doc==0.0.4                 # Helps with document metadata and structured notes
+annotated-types==0.7.0               # Support for modern Python type-hinting (PEP 593)
+anyio==4.12.1                        # High-level networking and concurrency library
+attrs==25.4.0                        # Simplifies writing Python classes (precursor to dataclasses)
+backoff==2.2.1                       # Logic to retry failed API calls (like OpenAI rate limits)
+bcrypt==5.0.0                        # Secure password hashing (likely for user authentication)
+build==1.4.0                         # Standard tool for building Python packages
+certifi==2026.2.25                   # Provides SSL certificates for secure HTTPS requests
+charset-normalizer==3.4.4            # Detects text encoding (needed for scraping different sites)
+chromadb==1.5.2                      # Your Vector Database: stores and searches your YouTube data
+click==8.3.1                         # Framework for creating command-line interfaces (CLI)
+coloredlogs==15.0.1                  # Makes terminal logs easier to read with colors
+defusedxml==0.7.1                    # XML parser that protects against malicious XML files
+distro==1.9.0                        # Identifies the OS version for compatibility checks
+durationpy==0.10                     # Converts time strings (like "1h") to seconds
+exceptiongroup==1.3.1                # Backport for handling multiple exceptions at once
+fastapi==0.135.1                     # The web framework used to build your RAG API
+filelock==3.25.0                     # Prevents multiple processes from writing to the same file
+flatbuffers==25.12.19                # High-performance serialization (used by ONNX/TensorFlow)
+fsspec==2026.2.0                     # Unified interface for different file systems (Local vs Cloud)
+googleapis-common-protos==1.72.0     # Standard Google API definitions (required by gRPC)
+grpcio==1.78.0                       # High-performance communication (required by Vector DBs)
+h11==0.16.0                          # Low-level HTTP implementation for the web server
+hf-xet==1.3.2                        # Extension for handling large files in Hugging Face
+httpcore==1.0.9                      # The engine behind modern HTTP clients
+httptools==0.7.1                     # Faster parser for HTTP requests
+httpx==0.28.1                        # Modern, async-friendly replacement for 'requests'
+huggingface_hub==1.5.0               # Allows downloading AI models/embeddings locally
+humanfriendly==10.0                  # Makes numbers/dates readable for humans in logs
+idna==3.11                           # Support for international domain names
+importlib_metadata==8.7.1            # Accesses library version info at runtime
+importlib_resources==6.5.2           # Accesses non-code files (images/configs) inside packages
+jiter==0.13.0                        # Fast JSON iterator/parser (often used by Pydantic)
+jsonschema==4.26.0                   # Validates that JSON data follows a specific format
+jsonschema-specifications==2025.9.1  # Support files for JSON validation
+kubernetes==35.0.0                   # Tools to deploy your app to a cloud cluster (K8s)
+markdown-it-py==4.0.0                # Parser to render or process Markdown text
+mdurl==0.1.2                         # URL utility for Markdown processing
+mmh3==5.2.0                          # Fast hashing algorithm (used by ChromaDB for indexing)
+mpmath==1.3.0                        # Library for high-precision math
+numpy==2.2.6                         # Essential for math and handling vector embeddings
+oauthlib==3.3.1                      # Logic for OAuth (logging in via Google/GitHub)
+onnxruntime==1.23.2                  # Runs localized AI models without needing a GPU
+openai==2.24.0                       # The official SDK to talk to GPT-4o and GPT-4
+opentelemetry-api==1.39.1            # Standard for tracking app performance (Observability)
+opentelemetry-exporter-otlp-proto-common==1.39.1 # Sends logs/traces to a dashboard
+opentelemetry-exporter-otlp-proto-grpc==1.39.1   # Transport for telemetry data
+opentelemetry-proto==1.39.1          # Data formats for telemetry
+opentelemetry-sdk==1.39.1            # The core engine for tracking app performance
+opentelemetry-semantic-conventions==0.60b1       # Standardized names for logs/traces
+orjson==3.11.7                       # Extremely fast JSON library for high-traffic APIs
+overrides==7.7.0                     # Ensures inherited methods match parent classes
+packaging==26.0                      # Utilities for handling Python package versions
+posthog==5.4.0                       # Product analytics (tracks how users use your RAG app)
+protobuf==6.33.5                     # Google's data format for fast communication
+pybase64==1.4.3                      # Faster version of base64 encoding
+pydantic==2.12.5                     # Enforces data types (crucial for API security)
+pydantic_core==2.41.5               # The high-speed C-engine inside Pydantic
+Pygments==2.19.2                     # Highlights code syntax in terminal or web
+PyPika==0.51.1                       # SQL query builder (used by some vector databases)
+pyproject_hooks==1.2.0               # Standard hooks for building Python projects
+python-dateutil==2.9.0.post0         # Makes handling complex dates (YouTube timestamps) easy
+python-dotenv==1.2.2                 # Loads your OPENAI_API_KEY from the .env file
+PyYAML==6.0.3                        # Reads configuration files in YAML format
+referencing==0.37.0                  # Resolves references within JSON documents
+regex==2026.2.28                     # Powerful text searching (replaces built-in 're')
+requests==2.32.5                     # The standard library for making web requests
+requests-oauthlib==2.0.0             # Simplifies OAuth login for 'requests' library
+rich==14.3.3                         # Beautiful terminal formatting (tables, progress bars)
+rpds-py==0.30.0                      # High-performance data structures in Rust
+shellingham==1.5.4                   # Detects which shell (bash/zsh) you are using
+six==1.
