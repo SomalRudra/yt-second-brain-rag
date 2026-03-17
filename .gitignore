@@ -1,0 +1,49 @@
+# --- Machine Learning / AI ---
+# Do not track the actual model weights (they are too large)
+*.pkl
+*.joblib
+*.h5
+*.pb
+*.onnx
+*.weights
+*.bin
+/models/
+# If using a local vector DB like Chroma or FAISS
+/vector_db/
+/storage/
+
+# --- Environment & Secrets ---
+# Crucial for H-1B/Professional privacy
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+# Credentials for GCP/AWS
+.aws/
+.gcloud/
+keys.json
+
+# --- Python & OS ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+
+# --- Deployment / Docker ---
+.dockerignore
+# Don't ignore the Dockerfile itself, but ignore built layers/logs
+*.log
+docker-compose.override.yml
+
+# --- Large Data ---
+# If you have raw YouTube transcripts or JSON datasets for training
+/data/raw/
+/data/processed/
+*.csv
+*.jsonl
